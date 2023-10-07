@@ -2,14 +2,7 @@
   command = "npm run build"  # o el comando que usas para construir tu proyecto
   functions = "functions"  # el directorio donde se encuentran tus funciones
 
-[[functions]]
-  name = "main_function"  # nombre de la primera función
-  path = "functions/main_function.js"  # ruta al archivo de la primera función
-
-[[functions]]
-  name = "polyfills_function"  # nombre de la segunda función
-  path = "functions/polyfills_function.js"  # ruta al archivo de la segunda función
-
-[[functions]]
-  name = "runtime_function"  # nombre de la tercera función
-  path = "functions/runtime_function.js"  # ruta al archivo de la tercera función
+[functions]
+  main_function = "functions/main_function.js"
+  polyfills_function = "functions/polyfills_function.js"
+  runtime_function = "functions/runtime_function.js"
